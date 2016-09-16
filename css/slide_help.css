@@ -1,0 +1,28 @@
+.slider_first .slick-slide {
+    padding: 0 15px;
+}
+.slider_first .slide-inner {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+.slick-slide:not(.slick-current) .slide-inner {
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.slider_first img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
